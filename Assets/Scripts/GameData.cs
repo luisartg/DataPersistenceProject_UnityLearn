@@ -44,6 +44,7 @@ public class GameData : MonoBehaviour
         }
         else
         {
+            ScoreData = new ScoreSaveData();
             Debug.LogWarning("No data was found saved");
         }
     }
